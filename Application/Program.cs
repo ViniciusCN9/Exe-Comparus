@@ -9,7 +9,9 @@ namespace Application
     {
         static void Main(String[] args)
         {
-            Console.WriteLine("Hello World");
+            Presentation.Initial();
+            Service.Menu();
+            Presentation.Finish();
         }
     }
 }
