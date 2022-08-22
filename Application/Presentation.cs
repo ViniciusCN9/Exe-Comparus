@@ -54,7 +54,7 @@ namespace Application
         public static void Options()
         {
             Thread.Sleep(3000);
-            Console.Clear();
+            // Console.Clear();
             Console.WriteLine
             (
                 @"Selecione uma das opções abaixo:" + "\r\n" +
